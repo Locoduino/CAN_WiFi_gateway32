@@ -36,7 +36,7 @@ Le logiciel est écrit en C/C++ au travers de l’IDE Arduino. Il comporte un fi
 
 Une vidéo est disponible ici : https://youtu.be/MusBfFuk-hw
 
-Le dossier data CAN_WiFi_gateway32 qui se trouve dans le dossier CAN_WiFi_gateway32 peut être copié dans la mémoire SPIFFS de l'ESP32. Il sera alors possible de charger la page web à l'url : http://cangw.local/tco/tco_v06.html
+Le dossier data qui se trouve dans le dossier CAN_WiFi_gateway32 peut être copié dans la mémoire SPIFFS de l'ESP32. Il sera alors possible de charger la page web à l'url : http://cangw.local/tco/tco_v06.html
 
 Une application test dans le dossier SEEED_CAN_send permet à partir d'un Arduino Uno ou Mega et d'un module CAN MCP2515 d'envoyer des messages à la passerelle qui va les rerouter vers la page html et ainsi permettre un affichage dynamique en temps réel.
 
